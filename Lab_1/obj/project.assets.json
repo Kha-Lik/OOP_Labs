@@ -686,21 +686,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MykolaV\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\MykolaV\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MykolaV\\source\\repos\\C#\\OOP_Labs\\Lab_1\\Lab_1.csproj",
+      "projectUniqueName": "C:\\Users\\MykolaV\\RiderProjects\\OOP_Labs\\Lab_1\\Lab_1.csproj",
       "projectName": "Lab_1",
-      "projectPath": "C:\\Users\\MykolaV\\source\\repos\\C#\\OOP_Labs\\Lab_1\\Lab_1.csproj",
+      "projectPath": "C:\\Users\\MykolaV\\RiderProjects\\OOP_Labs\\Lab_1\\Lab_1.csproj",
       "packagesPath": "C:\\Users\\MykolaV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MykolaV\\source\\repos\\C#\\OOP_Labs\\Lab_1\\obj\\",
+      "outputPath": "C:\\Users\\MykolaV\\RiderProjects\\OOP_Labs\\Lab_1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\MykolaV\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -734,7 +730,12 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true
